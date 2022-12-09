@@ -79,7 +79,4 @@ if __name__ == '__main__':
 
     lyrics_importer = LyricsImporter()
     lyrics_importer.create_markov_chain_dict_from_folder('./beatles_lyrics')
-
-    for _ in range(10):
-        print('verse:')
-        lyrics_importer.create_lyrics()
+    lyrics_importer.create_lyrics()
